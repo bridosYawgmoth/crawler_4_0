@@ -1,0 +1,6 @@
+namespace DB;
+
+class DBTable
+{
+	
+}
