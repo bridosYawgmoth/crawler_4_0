@@ -13,12 +13,10 @@ namespace DB;
  *
  * @author giavr
  */
-abstract class DBTable {
-
-    public static function Select() {
-        $sql = "SELECT * FROM " . static::GetTableName();
+class Website extends DBTable{
+    //put your code here
+    public function GetTableName():string {
+        return "website";
     }
-    
-    public abstract function GetTableName();
 
 }
